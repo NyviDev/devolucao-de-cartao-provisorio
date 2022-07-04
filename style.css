@@ -6,12 +6,15 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 10px;
     border: 1px solid;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #capture {
-    max-width: 800px;
+    padding: 0 10px;
+
 }
 
 input {
